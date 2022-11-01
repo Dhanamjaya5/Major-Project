@@ -7,22 +7,22 @@ function Navbar() {
   return (
     <div>
       <header>
-        <h2 className='logo' onClick={() => navigate('input')}>
+        <h2 className='logo' onClick={() => navigate('/')}>
           EasyMCQ
         </h2>
         <nav>
           <ul className='nav__links'>
-            <li onClick={() => navigate('input')}>
-              <a href='#'>MCQGenerator</a>
+            <li onClick={() => navigate('/input')}>
+              <a>MCQGenerator</a>
             </li>
             <li>
-              <a href='#'>About</a>
+              <a href='#'>Team</a>
             </li>
           </ul>
         </nav>
-        <a className='cta' href='#'>
+        {/* <a className='cta' href='#'>
           <button className='NavBtn'>signIn</button>
-        </a>
+        </a> */}
       </header>
     </div>
   );

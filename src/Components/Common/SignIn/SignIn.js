@@ -89,7 +89,11 @@ function SignIn() {
             >
               Sign In
             </button>
-            <a href='#' className='OrCreateAccount'>
+            <a
+              href='#'
+              className='OrCreateAccount'
+              onClick={() => navigate('/CreateAccount')}
+            >
               Or Create Account?
             </a>
           </div>

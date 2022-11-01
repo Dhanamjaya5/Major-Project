@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.SignIn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 47px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.SignInHr {
+    position: relative;
+    left: 2.95%;
+    right: 4.48%;
+    top: 38.46%;
+    bottom: 61.54%;
+
+}
+
+.formCA {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.centerSignIn {
+    width: 600px;
+    margin: 80px 0 0 550px;
+    position: absolute;
+}
+
+
+
+.SignInForm {
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 0px 10px 0 30px;
+
+
+
+}
+
+.SignInForm input {
+    height: 50px;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 50px;
+    border: 1px solid silver;
+    font-size: 18px;
+    outline: none;
+}
+
+.EmailSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.SignInForm input[type="SignInpassword"] {
+    margin-top: 20px;
+
+}
+
+.SignInForm input[type="SignInEmail"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+}
+
+.SignInForm i {
+    position: absolute;
+    font-size: 25px;
+    color: grey;
+    margin: 15px 0 0 -45px;
+}
+
+i.fa-lock {
+    margin-top: 35px;
+}
+
+.SignInForm input[type="submit"] {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: #5c1769;
+}
+
+
+.btn-CA {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 250px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: #5c1769;
+    font-size: medium;
+}
+
+
+.btn-CA:hover {
+    background: #491254;
+    transition: .5s;
+}
+
+
+.OrCreateAccount {
+    text-decoration: none;
+    font-size: 18px;
+    color: #7f2092;
+    padding: 0px 0px 0 20px;
+    margin-left: 10%;
+
+}
+
+.GoogleLoginButton {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.GoogleLoginButton h4 {
+    margin: 10px 0;
+    font-size: large;
+}
+
+.GoogleLoginButton button {
+    padding: 10px 0;
+    font-size: medium;
+}

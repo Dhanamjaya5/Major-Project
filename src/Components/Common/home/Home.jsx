@@ -3,6 +3,8 @@ import './Home.css'
 import Header  from '../header';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import {useNavigate} from 'react-router-dom';
+import Picture from '../../pictures/Group 6.svg'
+import Footer from '../../pictures/Footer.svg'
 
 function Home(){
     const navigate= useNavigate();
@@ -12,7 +14,7 @@ function Home(){
         <section className='get-started-window'>
 
             <section className='title-view' contentEditable>
-                <a className='title-text'>Create Multiple Choice Questions<span className='mcq-word'>(MCQs)</span> online from any text using NLP.</a>
+                <a className='home-text'>Create Multiple Choice Questions<span className='mcq-word'>(MCQs)</span> online from any text using NLP.</a>
              
             </section>
 
@@ -30,7 +32,8 @@ function Home(){
             </section>
         </section>
         <section className='Details-view'>
-            <section></section>
+            <img src={Picture} style={{alignSelf:'center'}}/>
+            <img src={Footer}/>
         </section>
         </section>
 

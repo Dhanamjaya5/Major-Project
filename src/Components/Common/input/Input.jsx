@@ -27,7 +27,7 @@ function Input(){
         <section>
             <section className='header'>
                 <section className='title'>
-                    <a className='title-text'>EASYMCQ</a>
+                    <a className='title-text' onClick={()=>navigate('/')}>EASYMCQ</a>
                 </section>
 
                 <section className='options'>

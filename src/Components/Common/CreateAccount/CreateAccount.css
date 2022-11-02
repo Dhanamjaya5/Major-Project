@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.CreateAccount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.HrCA {
+    position: relative;
+    left: 2.95%;
+    right: 4.48%;
+    top: 38.46%;
+    bottom: 61.54%;
+
+}
+
+.formCA {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center {
+    width: 600px;
+    margin: 80px 0 0 550px;
+    position: absolute;
+
+}
+
+
+
+.CreateForm {
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 60px 10px 0 30px;
+
+
+
+}
+
+.CreateForm input {
+    height: 50px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 50px;
+    border: 1px solid silver;
+    font-size: 18px;
+    outline: none;
+}
+
+.EmailSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.CreateForm input[type="password"] {
+    margin-top: 20px;
+
+}
+
+.CreateForm input[type="email"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+}
+
+.CreateForm i {
+    position: absolute;
+    font-size: 25px;
+    color: grey;
+    margin: 15px 0 0 -45px;
+}
+
+i.fa-lock {
+    margin-top: 35px;
+}
+
+.CreateForm input[type="submit"] {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: #5c1769;
+}
+
+
+.btn-CA {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: #5c1769;
+    font-size: medium;
+}
+
+
+.btn-CA:hover {
+    background: #491254;
+    transition: .5s;
+}
+
+
+.CreateForm a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #7f2092;
+    padding: 0px 40px 0 20px;
+    margin-left: 10%;
+    cursor: pointer;
+
+}

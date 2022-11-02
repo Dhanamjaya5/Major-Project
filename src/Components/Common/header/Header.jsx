@@ -1,10 +1,13 @@
 import {React} from 'react';
+import { useNavigate } from "react-router-dom";
 import styled from 'styled-components';
 import './Header.css';
 
 
 
 function Header() {
+
+    const navigate = useNavigate()
     
     return(
         <section className='header-main'>
@@ -23,7 +26,7 @@ function Header() {
                 </section>
 
                 <section className='login'>
-                    <button onClick={test} className='login-style'>Login</button>
+                    <button onClick={()=>navigate('/SignIn')} className='login-style'>Login</button>
                 </section>
 
              </section>

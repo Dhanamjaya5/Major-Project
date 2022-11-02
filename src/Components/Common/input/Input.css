@@ -74,6 +74,7 @@
     margin-top: 40px;
     margin-left: 30px;
     justify-content: center;
+    margin-right: 5%;
 }
 
 .submit-button-view{
@@ -87,4 +88,22 @@
 
 .submit-button-view:hover{
     background-color: #3A4C8E;
+}
+
+.info-view{
+    display: flex;
+    margin-top:2%;
+    margin-bottom:5px;
+}
+
+.input-caption-view{
+    margin-bottom: 3%;
+    margin-top: 2px;
+}
+
+.input-image-view{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
